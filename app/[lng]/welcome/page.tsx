@@ -22,7 +22,7 @@ export default async function WelcomeScreen() {
   //   setTimeout(() => {
   redirect("/");
   //   }, 1000);
-
+/*
   return (
     <>
       {user ? (
@@ -42,5 +42,5 @@ export default async function WelcomeScreen() {
       )}
       <LoadingIndicator />
     </>
-  );
+  );*/
 }
