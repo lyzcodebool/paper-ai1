@@ -53,42 +53,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={GeistSans.className}>
-      {/* <Script>{`
-            if ('serviceWorker' in navigator) {
-              window.addEventListener('load', function() {
-                navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
-                  // 注册成功
-                  console.log('ServiceWorker registration successful with scope: ', registration.scope);
-                }, function(err) {
-                  // 注册失败 :(
-                  console.log('ServiceWorker registration failed: ', err);
-                });
-              });
-            }
-          `}</Script> */}
-      {/* msft clarify */}
-      <Script>
-        {`(function (c, l, a, r, i, t, y) {
-        c[a] =
-          c[a] ||
-          function () {
-            (c[a].q = c[a].q || []).push(arguments);
-          };
-        t = l.createElement(r);
-        t.async = 1;
-        t.src = "https://www.clarity.ms/tag/" + i;
-        y = l.getElementsByTagName(r)[0];
-        y.parentNode.insertBefore(t, y);
-      })(window, document, "clarity", "script", "l869naiex9");`}
-      </Script>
-      {/* google一键登录 */}
-      <Script src="https://accounts.google.com/gsi/client" async></Script>
-      <body className="bg-background text-foreground">
-        <main className="min-h-screen flex flex-col items-center">
-          {children}
-        </main>
-      </body>
-      <GoogleAnalytics gaId="G-05DHTG9XQ5" />
+    {}
     </html>
   );
 }
