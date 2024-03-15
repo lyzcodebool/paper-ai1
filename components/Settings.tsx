@@ -51,6 +51,7 @@ const Settings = ({ lng }: { lng: string }) => {
     //   apiKey: "nk-2311676378",
     //   upstreamUrl: "https://chat.flss.world/api/openai",
     // },
+
     {
       name: t("configurations.custom"),
       apiKey: "",
