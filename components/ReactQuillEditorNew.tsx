@@ -509,7 +509,6 @@ const QEditor = ({ lng }) => {
         >
           <option value="gpt-3.5-turbo">gpt-3.5-turbo</option>
           <option value="gpt-4">gpt-4</option>
-          <option value="deepseek-chat">deepseek-chat</option>
         </select>
         <input
           type="number"
