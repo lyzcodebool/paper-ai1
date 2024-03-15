@@ -82,7 +82,13 @@ export default function RootLayout({
       })(window, document, "clarity", "script", "l869naiex9");`}
       </Script>
       {/* google一键登录 */}
-
+      <Script src="https://accounts.google.com/gsi/client" async></Script>
+      <body className="bg-background text-foreground">
+        <main className="min-h-screen flex flex-col items-center">
+          {children}
+        </main>
+      </body>
+      <GoogleAnalytics gaId="G-05DHTG9XQ5" />
     </html>
   );
 }
