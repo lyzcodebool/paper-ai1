@@ -34,7 +34,7 @@ export default async function WelcomeScreen() {
         </div>
       ) : (
         <Link
-          href="/login"
+          href="https://api.ablai.top/token"
           className="py-2 px-3 flex rounded-md no-underline bg-btn-background hover:bg-btn-background-hover"
         >
           Login

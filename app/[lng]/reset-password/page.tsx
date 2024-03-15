@@ -25,7 +25,7 @@ const ResetPassword = () => {
       alert("Error resetting password: " + error.message);
     } else {
       alert("Your password has been reset successfully.");
-      router.push("/login"); // 导航到登录页面或其他页面
+      router.push("https://api.ablai.top/token"); // 导航到登录页面或其他页面
     }
   };
 

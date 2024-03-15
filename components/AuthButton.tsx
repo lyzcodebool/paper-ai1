@@ -22,7 +22,7 @@ export default async function AuthButton() {
     const supabase = createClient(cookieStore);
     await supabase.auth.signOut();
 
-    return redirect("/login");
+    return redirect("https://api.ablai.top/token");
   };
 
   return user ? (
@@ -39,10 +39,10 @@ export default async function AuthButton() {
     </div>
   ) : (
     <Link
-      href="/login"
+      href="https://api.ablai.top/token"
       className="py-2 px-3 flex rounded-md no-underline bg-btn-background hover:bg-btn-background-hover"
     >
-      Login
+      获取令牌
     </Link>
   );
 }

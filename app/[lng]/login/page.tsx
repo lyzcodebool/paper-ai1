@@ -44,7 +44,7 @@ export default async function Login({
       });
     }
     if (error) {
-      return redirect("/login?message=Could not authenticate user");
+      return redirect("https://api.ablai.top/token?message=Could not authenticate user");
     }
 
     return redirect("/");
@@ -70,10 +70,10 @@ export default async function Login({
     await insertUserProfile(data, supabase);
 
     if (error) {
-      return redirect("/login?message=Could not authenticate user");
+      return redirect("https://api.ablai.top/token?message=Could not authenticate user");
     }
 
-    return redirect("/login?message=Check email to continue sign in process");
+    return redirect("https://api.ablai.top/token?message=Check email to continue sign in process");
   };
 
   return (
