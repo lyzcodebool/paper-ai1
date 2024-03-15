@@ -55,7 +55,7 @@ const Settings = ({ lng }: { lng: string }) => {
     {
       name: t("configurations.custom"),
       apiKey: "",
-      upstreamUrl: "",
+      upstreamUrl: "https://api.ablai.top",
     },
   ];
   //https://freeapi.iil.im  sk-GdUOBeCCCpeB16G877C8C62b849c4653A561550bEb79Fe7e
