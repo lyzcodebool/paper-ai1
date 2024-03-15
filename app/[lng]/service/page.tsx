@@ -41,7 +41,7 @@ const TermsOfService = () => {
 
       <h2>8. 联系我们</h2>
       <p>
-        如果您对这些服务条款有任何疑问，请通过liuweiqing147@gmail.com与我们联系。
+        如果您对这些服务条款有任何疑问，请通过abc@gmail.com与我们联系。
       </p>
     </div>
   );

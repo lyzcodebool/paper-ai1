@@ -60,21 +60,6 @@ export default async function Index({ params: { lng } }: IndexProps) {
           {" "}
           {/* 添加flex容器来水平排列子元素 */}
           <a
-            href="https://github.com/14790897/paper-ai"
-            target="_blank"
-            className="font-bold text-blue-600 hover:underline hover:text-blue-800"
-            rel="noreferrer"
-          >
-            {t("give me a star in GitHub")}
-          </a>
-          <a
-            href="https://docs.paperai.life/"
-            target="_blank"
-            className="font-bold text-blue-500 hover:underline hover:text-blue-700"
-          >
-            <strong>使用文档</strong>
-          </a>
-          <a
             href="./privacy"
             target="_blank"
             className="font-bold text-blue-500 hover:underline hover:text-blue-700"

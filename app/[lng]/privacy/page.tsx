@@ -61,7 +61,7 @@ export default function PrivacyPolicy() {
       </p>
       <h2>联系我们</h2>
       <p>
-        如果您对本隐私政策有任何疑问，请通liuweiqing147@gmail.com过与我们联系。
+        如果您对本隐私政策有任何疑问，请通过abc@gmail.com与我们联系。
       </p>
 
       <p>最后更新日期：2024.3.7</p>
